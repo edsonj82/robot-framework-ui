@@ -5,7 +5,10 @@ Library     SeleniumLibrary
 ${url}      https://training-wheels-protocol.herokuapp.com
 
 ***Test Cases***
-Should See Page Title
-    Open Browser        ${url}      firefox
-    Go To               ${url}/checkboxes
+Mark option with Id
+    Open Browser                    ${url}      firefox
+    Go To                           ${url}/checkboxes
+    Select Checkbox                 id:thor
+    Checkbox Should Be Selected     id:thor
+    Sleep                           5
     Close Browser    
