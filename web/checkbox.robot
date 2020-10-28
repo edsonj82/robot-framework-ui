@@ -14,11 +14,19 @@ Mark option with Id
     Close Browser
     
 Mark option with CSS Selector
-    [tags]                          ironman
     Open Browser                    ${url}      firefox
     Go To                           ${url}/checkboxes
     Select Checkbox                 css:input[value='iron-man']
     Checkbox Should Be Selected     css:input[value='iron-man']
+    Sleep                           5
+    Close Browser
+
+Mark option with Xpath
+    [tags]                          ironman
+    Open Browser                    ${url}      firefox
+    Go To                           ${url}/checkboxes
+    Select Checkbox                 xpath://*[@id='checkboxes']/input[7]
+    Checkbox Should Be Selected     xpath://*[@id='checkboxes']/input[7]
     Sleep                           5
     Close Browser
     
