@@ -14,7 +14,6 @@ Mark option with Id
     Go To                           ${url}/checkboxes
     Select Checkbox                 ${check_thor}
     Checkbox Should Be Selected     ${check_thor}
-    Sleep                           1
     
 Mark option with CSS Selector
     Go To                           ${url}/checkboxes
@@ -26,3 +25,4 @@ Mark option with Xpath
     Go To                           ${url}/checkboxes
     Select Checkbox                 ${check_panther}
     Checkbox Should Be Selected     ${check_panther}
+    Sleep                           1
