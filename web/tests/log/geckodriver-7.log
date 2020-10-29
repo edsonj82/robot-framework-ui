@@ -1,0 +1,11 @@
+1604011768205	geckodriver	INFO	Listening on 127.0.0.1:56681
+1604011768229	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileFI6Vdu"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604011774360	Marionette	INFO	Listening on port 42785
+1604011774474	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 697))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 351))
+1604011877508	Marionette	INFO	Stopped listening on port 42785
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A000E,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
