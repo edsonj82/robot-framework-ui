@@ -1,9 +1,6 @@
 ***Settings***
 Library     SeleniumLibrary
 
-Test Setup      New Session
-Test Teardown   End Session
-
 ***Variables***
 ${url}          https://training-wheels-protocol.herokuapp.com
 
@@ -12,4 +9,5 @@ New Session
     Open Browser                    ${url}      firefox
 
 End Session
+    Capture Page Screenshot
     Close Browser
