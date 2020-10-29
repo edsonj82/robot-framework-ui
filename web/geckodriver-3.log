@@ -1,0 +1,7 @@
+1603992381418	geckodriver	INFO	Listening on 127.0.0.1:60571
+1603992381430	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiletHyO2k"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1603992384820	Marionette	INFO	Listening on port 33521
+1603992384872	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://training-wheels-protocol.herokuapp.com/radios, line 59: TypeError: form is null
+1603992408546	Marionette	INFO	Stopped listening on port 33521
