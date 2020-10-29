@@ -1,11 +1,10 @@
 ***Settings***
-Library     SeleniumLibrary
+Resource       base.robot
 
 Test Setup      New Session
 Test Teardown   End Session
 
 ***Variables***
-${url}          https://training-wheels-protocol.herokuapp.com
 ${check_thor}       id:thor
 ${check_iron}       css:input[value='iron-man']
 ${check_panther}    xpath://*[@id='checkboxes']/input[7]
@@ -27,10 +26,3 @@ Mark option with Xpath
     Go To                           ${url}/checkboxes
     Select Checkbox                 ${check_panther}
     Checkbox Should Be Selected     ${check_panther}
-
-***Keywords***
-New Session
-    Open Browser                    ${url}      firefox
-
-End Session
-    Close Browser
